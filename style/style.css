@@ -1,0 +1,68 @@
+/*
+
+SUMÁRIO 
+
+    0. Configurações Gerais
+    1. Body
+        1.1 Background
+    2. Header
+    3. Main
+    4. Footer
+
+*/
+
+/* 0. Configurações Gerais */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@font-face{
+    font-family: Circular;
+    src: url(../fonts/CircularStd-Medium.otf) format('opentype');
+}
+
+:root{
+    --main-purple: #7b25f8;
+    --bg-purple: #7e23c3;
+    --bg-pink: #e64973;
+    --ptn-black: #000000;
+    --ptn-white: #ffffff;
+
+    --ssf-circular: Circular,arial,sans-serif;
+}
+/* ----------------------- */
+
+/* 1. Body */
+/* 1.1 Background */
+.body-parallax{
+    background-image: url(../media/capa.png), linear-gradient(to top right, var(--bg-pink), var(--bg-purple));
+
+    min-height: 750px;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-size: auto;
+}
+/* ------- */
+
+/* 2. Header */
+/* 2.1 Menu */
+.header-menu{
+    background-color: rgba(0, 0, 0, 0.6);
+}
+#header-menu-logo-img{
+    width: 132px;
+    height: 40px;
+}
+.header-menu-nav-links-list-item{
+    display: inline;
+
+    font: normal normal 16px var(--ssf-circular);
+    color: var(--ptn-white);
+}
+/* ----------*/
+
+
+
+
