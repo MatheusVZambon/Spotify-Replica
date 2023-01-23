@@ -20,14 +20,55 @@
             <div class="header-menu-nav">
                 <nav class="header-menu-nav-links">
                     <ul class="header-menu-nav-links-list">
-                        <li class="header-menu-nav-links-list-item">Premium</li>
-                        <li class="header-menu-nav-links-list-item">Ajuda</li>
-                        <li class="header-menu-nav-links-list-item">Download</li>
+                        <li class="header-menu-nav-links-list-item"><a href="" class="nav-link-a">Premium</a></li>
+                        <li class="header-menu-nav-links-list-item"><a href="" class="nav-link-a">Ajuda</a></li>
+                        <li class="header-menu-nav-links-list-item"><a href="" class="nav-link-a">Download</a></li>
+                        <li class="header-menu-nav-links-list-item">|</li>
+                        <li class="header-menu-nav-links-list-item"><a href="" class="nav-link-opc">Entrar</a></li>
+                        <li class="header-menu-nav-links-list-item"><a href="" class="nav-link-opc">Cadastre-se</a></li>
                     </ul>
                 </nav>
             </div>
         </div>
     </header>
+    <main>
+        <div class="main-carousel">
+            <div class="main-carousel-slide">
+                <h1 class="main-carousel-slide-title">Música para todos.</h1>
+                <div class="main-carousel-slide-button">
+                    <button class="main-carousel-slide-button-purple">Começe Agora</button>
+                    <button class="main-carousel-slide-button-white">Tenha Spotify Premium</button>
+                </div>
+            </div>
+            <div class="main-carousel-slide">
+                <h1 class="main-carousel-slide-title">Premium para toda sua família por apenas R$ 15,00.</h1>
+                <div class="main-carousel-slide-button">
+                    <button class="main-carousel-slide-button-purple">Começe Agora</button>
+                </div>
+            </div>
+            <div class="main-carousel-slide">
+                <h1 class="main-carousel-slide-title">Estudantes tem 50% de desconto.</h1>
+                <div class="main-carousel-slide-button">
+                    <button class="main-carousel-slide-button-purple">Começe Agora</button>
+                </div>
+            </div>
+            <div class="main-carousel-slide">
+                <h1 class="main-carousel-slide-title">Use Spotify no PlayStation®.</h1>
+                <div class="main-carousel-slide-button">
+                    <button class="main-carousel-slide-button-purple">Começe Agora</button>
+                </div>
+            </div>
+            <a class="main-carousel-slide-prev" onclick="slideStep(-1)">&#10094;</a>
+            <a class="main-carousel-slide-next" onclick="slideStep(1)">&#10095;</a>
+        </div>
+        <div class="main-carousel-slide-dots">
+            <span class="main-carousel-slide-dot" onclick="slideChange(1)"></span>
+            <span class="main-carousel-slide-dot" onclick="slideChange(2)"></span>
+            <span class="main-carousel-slide-dot" onclick="slideChange(3)"></span>
+            <span class="main-carousel-slide-dot" onclick="slideChange(4)"></span>
+        </div>
+    </main>
     <div class="body-parallax"></div>
 </body>
+    <script src=".//js/carousel-index.js"></script>
 </html>
