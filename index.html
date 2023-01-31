@@ -58,17 +58,160 @@
                     <button class="main-carousel-slide-button-purple">Começe Agora</button>
                 </div>
             </div>
-            <a class="main-carousel-slide-prev" onclick="slideStep(-1)">&#10094;</a>
-            <a class="main-carousel-slide-next" onclick="slideStep(1)">&#10095;</a>
+            <div class="main-carousel-slide-dots">
+                <span class="main-carousel-slide-dot" onclick="slideChange(1)"></span>
+                <span class="main-carousel-slide-dot" onclick="slideChange(2)"></span>
+                <span class="main-carousel-slide-dot" onclick="slideChange(3)"></span>
+                <span class="main-carousel-slide-dot" onclick="slideChange(4)"></span>
+            </div>
+            <div class="main-carousel-slide-arrows">
+                <a class="main-carousel-slide-prev" onclick="slideStep(-1)">&#10094;</a>
+                <a class="main-carousel-slide-next" onclick="slideStep(1)">&#10095;</a>
+            </div>
         </div>
-        <div class="main-carousel-slide-dots">
-            <span class="main-carousel-slide-dot" onclick="slideChange(1)"></span>
-            <span class="main-carousel-slide-dot" onclick="slideChange(2)"></span>
-            <span class="main-carousel-slide-dot" onclick="slideChange(3)"></span>
-            <span class="main-carousel-slide-dot" onclick="slideChange(4)"></span>
+        <div class="main-content">
+            <section class="main-content-section-presentation">
+                <div class="main-content-section-presentation-albums">
+                    <div class="main-content-section-presentation-albums-frame" id="frame-one">
+                        <img src="./media/botao-play.png" alt="" class="frame-play">
+                    </div>
+                    <div class="main-content-section-presentation-albums-frame" id="frame-two">
+                        <img src="./media/botao-play.png" alt="" class="frame-play">
+                    </div>
+                    <div class="main-content-section-presentation-albums-frame" id="frame-three">
+                        <img src="./media/botao-play.png" alt="" class="frame-play">
+                    </div>
+                    <div class="main-content-section-presentation-albums-frame" id="frame-four">
+                        <img src="./media/botao-play.png" alt="" class="frame-play">
+                    </div>
+                </div>
+                <div class="main-content-section-presentation-text">
+                    <h2 class="main-content-section-presentation-text-title">O que tem no Spotify?</h2>
+                    <h3 class="main-content-section-presentation-text-subtitle">Músicas</h3>
+                    <p class="main-content-section-presentation-text-paragraph">Existem milhões de músicas no Spotify. Ouça suas favoritas, descubra novas faixas, e construa a coleção perfeita para você.</p>
+                    <h3 class="main-content-section-presentation-text-subtitle">Playlists</h3>
+                    <p class="main-content-section-presentation-text-paragraph">Você encontrará playlists prontas para encaixar no seu clima e arquitetadas por fãs e experts de música.</p>
+                    <h3 class="main-content-section-presentation-text-subtitle">Lançamentos</h3>
+                    <p class="main-content-section-presentation-text-paragraph">Escute os mais novos álbums e confira o Top 50 para ficar por dentro dos destaques.</p>
+                </div>
+            </section>
+            <section class="main-content-section-instruction">
+                <div class="main-content-section-instruction-text">
+                    <h2 class="main-content-section-instruction-text-title">É fácil.</h2>
+                    <h3 class="main-content-section-instruction-text-subtitle">Pesquise</h3>
+                    <p class="main-content-section-instruction-text-paragraph">Já sabe o que quer ouvir? Apenas pesquise e aperte o play.</p>
+                    <h3 class="main-content-section-instruction-text-subtitle">Navegue</h3>
+                    <p class="main-content-section-instruction-text-paragraph">Cheque as últimas listas, novos lançamentos e ótimas playlists.</p>
+                    <h3 class="main-content-section-instruction-text-subtitle">Descubra</h3>
+                    <p class="main-content-section-instruction-text-paragraph">Aproveite novas faixas toda segunda-feira com sua playlist pessoal. Ou relaxe e desfrute do Rádio.</p>
+                </div>
+                <div class="main-content-section-instruction-phones-wrap">
+                    <div class="main-content-section-instruction-phones">
+                        <img src="./media/iphone1.png" alt="" class="main-content-section-instruction-phones-image middle-height">
+                        <img src="./media/iphone2.png" alt="" class="main-content-section-instruction-phones-image">
+                        <img src="./media/iphone1.png" alt="" class="main-content-section-instruction-phones-image middle-height">
+                        <div></div> <!--Div apenas para posicionamento no grid-->
+                        <img src="./media/iphone3.png" alt="" class="main-content-section-instruction-phones-image middle-item">
+                    </div>
+                </div>
+            </section>
+            <section class="main-content-section-devices">
+                <img src="./media/devices.jpg" alt="" class="main-content-section-devices-image">
+                <h2 class="main-content-section-devices-title">Toque em todos os seus dispositivos</h2>
+                <ul class="main-content-section-devices-list">
+                    <li class="main-content-section-devices-list-item">Mobile</li>
+                    <li class="main-content-section-devices-list-item item-divider">-</li>
+                    <li class="main-content-section-devices-list-item">Computador</li>
+                    <li class="main-content-section-devices-list-item item-divider">-</li>
+                    <li class="main-content-section-devices-list-item">Tablet</li>
+                    <li class="main-content-section-devices-list-item item-divider">-</li>
+                    <li class="main-content-section-devices-list-item">Carro</li>
+                    <li class="main-content-section-devices-list-item item-divider">-</li>
+                    <li class="main-content-section-devices-list-item">Caixa de Som</li>
+                    <li class="main-content-section-devices-list-item item-divider">-</li>
+                    <li class="main-content-section-devices-list-item item-underline">PlayStation®</li>
+                    <li class="main-content-section-devices-list-item item-divider">-</li>
+                    <li class="main-content-section-devices-list-item">TV</li>
+                    <li class="main-content-section-devices-list-item item-divider">-</li>
+                    <li class="main-content-section-devices-list-item">Android Wear</li>
+                    <li class="main-content-section-devices-list-item item-divider">-</li>
+                    <li class="main-content-section-devices-list-item item-underline">Web Player</li>
+                </ul>
+            </section>
+            <section class="main-content-section-prices">
+                <div class="section-prices-flex-wrap">
+                    <div class="main-content-section-prices-text">
+                        <h2 class="main-content-section-prices-text-title">Escolha<br>seu plano.</h2>
+                        <p class="main-content-section-prices-text-subtitle">Escute grátis.<br>Ou assine o Premium para tocar quando e onde quiser.</p>
+                        <h3 class="main-content-section-prices-text-option">Spotify</h3>
+                        <h3 class="main-content-section-prices-text-value">R$ 0,00<span class="value-month">/mês</span></h3>
+                        <ul class="main-content-section-prices-text-benefits">
+                            <li class="main-content-section-prices-text-benefits-item">Aproveite suas músicas e artistas favoritos, com alguns anúncios ocasionais.</li>
+                        </ul>
+                        <button class="main-content-section-prices-text-button">Tenha Spotify Grátis</button>
+                        <h3 class="main-content-section-prices-text-option">Spotify Premium</h3>
+                        <h3 class="main-content-section-prices-text-value">R$ 9,99<span class="value-month">/mês</span></h3>
+                        <p class="main-content-section-prices-text-offers">Planos especiais para <span class="offer-option">Estudantes</span> e <span class="offer-option">Família</span></p>
+                        <ul class="main-content-section-prices-text-benefits">
+                            <li class="main-content-section-prices-text-benefits-item">Escute On-Demand.</li>
+                            <li class="main-content-section-prices-text-benefits-item">Use mesmo sem internet.</li>
+                            <li class="main-content-section-prices-text-benefits-item">Nada de anúncios.</li>
+                            <li class="main-content-section-prices-text-benefits-item">Áudio de alta qualidade.</li>
+                        </ul>
+                        <button class="main-content-section-prices-text-button">Tenha Spotify Premium</button>
+                    </div>
+                    <div class="main-content-section-prices-phone">
+                        <img src="./media/iphone2.png" alt="" class="main-content-section-prices-phone-image">
+                    </div>
+                </div>
+                <div class="main-content-section-prices-tandc">
+                    <p class="main-content-section-prices-tandc-text">Termos e Condições <span class="tandc-white">se aplicam.</span></p>
+                </div>
+            </section>
         </div>
     </main>
     <div class="body-parallax"></div>
+    <footer>
+        <div class="footer-superior">
+            <div class="footer-superior-nav">
+                <div class="footer-superior-nav-logo">
+                    <img src="./media/spotify.svg" alt="" class="footer-superior-nav-logo-image">
+                </div>
+                <div class="footer-superior-nav-company">
+                    <ul class="footer-superior-nav-list">
+                        <li class="footer-superior-nav-list-item list-title">Empresa</li>
+                        <li class="footer-superior-nav-list-item">Sobre</li>
+                        <li class="footer-superior-nav-list-item">Trabalhe Conosco</li>
+                        <li class="footer-superior-nav-list-item">Imprensa</li>
+                        <li class="footer-superior-nav-list-item">Notícias</li>
+                    </ul>
+                </div>
+                <div class="footer-superior-nav-community">
+                    <ul class="footer-superior-nav-list">
+                        <li class="footer-superior-nav-list-item list-title">Comunidades</li>
+                        <li class="footer-superior-nav-list-item">Artistas</li>
+                        <li class="footer-superior-nav-list-item">Desenvolvedores</li>
+                        <li class="footer-superior-nav-list-item">Marcas</li>
+                    </ul>
+                </div>
+                <div class="footer-superior-nav-useful">
+                    <ul class="footer-superior-nav-list">
+                        <li class="footer-superior-nav-list-item list-title">Links Úteis</li>
+                        <li class="footer-superior-nav-list-item">Ajuda</li>
+                        <li class="footer-superior-nav-list-item">Presente</li>
+                        <li class="footer-superior-nav-list-item">Web Player</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-superior-social">
+                <ul class="footer-superior-social-list">
+                    <li class="footer-superior-social-list-item"><img src="./media/facebook.png" alt="" class="footer-superior-social-list-item-image"></li>
+                    <li class="footer-superior-social-list-item"><img src="./media/instagram.png" alt="" class="footer-superior-social-list-item-image" id="mid-item"></li>
+                    <li class="footer-superior-social-list-item"><img src="./media/twitter.png" alt="" class="footer-superior-social-list-item-image"></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
 </body>
     <script src=".//js/carousel-index.js"></script>
 </html>

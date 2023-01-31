@@ -26,6 +26,7 @@ function showSlides(x){
     for (lc = 0; lc < dots.length; lc++){
       dots[lc].className = dots[lc].className.replace(" main-carousel-slide-dot-act", "");
     }
+
     slides[slideIndex-1].style.display = "flex";
     dots[slideIndex-1].className += " main-carousel-slide-dot-act";
 } 
