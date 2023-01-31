@@ -11,7 +11,7 @@
 <p>A principal intenção foi retomar as práticas em programação, coisa que eu não me dedicava há um tempo, busquei começar o ano de 2023 mais focado, e então escolhi este como o primeiro projeto.</p>
 
 <h2>3 - Como acessar o projeto:</h2>
-<p><a href="">GitHub Pages</a></p>
+<p><a href="https://matheusvzambon.github.io/Spotify-Replica/">GitHub Pages</a></p>
 
 <h2>4 - Créditos:</h2>
 <p>Projeto realizado seguindo o curso de Desenvolvimento Web do Prof. Jamilton Damasceno (https://www.udemy.com/course/web-completo/)</p>
